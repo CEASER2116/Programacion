@@ -35,4 +35,6 @@ int main()
             else
                 printf("%c es una letra minuscula \n", p1);
             else
-                printf("%c no es una letra \n", p1);
+                printf("%c no es una letra \n", p1);
+
+                }
