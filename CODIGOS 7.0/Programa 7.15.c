@@ -27,5 +27,5 @@ void interpreta(char *cadena)
             for (j = 0; j < k; j++)
                 putchar(cad[i]);
         }
-        i+;
+        i++;
     }

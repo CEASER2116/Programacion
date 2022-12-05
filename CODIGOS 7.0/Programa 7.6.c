@@ -24,6 +24,7 @@ cad2[4] = '\0';
 ➥incorporar al final de la cadena el caracter de terminación. Si el espacio reservado para cad2 es menor que lo que se pretende copiar, se genera
 ➥un error en la ejecución del programa. */
 
+
 printf("\nPrueba de la función strncpy. Se copian 4 caracteres de cad0 a cad2: %s\n", cad2);
 
 strncpy(cad2, cad3, 3);

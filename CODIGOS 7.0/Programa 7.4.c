@@ -14,12 +14,12 @@ void main(void)
     gets(cad1);
     /* Incorrecto. Ambas lecturas generan un error en la ejecución del programa. Para que un apuntador de tipo cadena de caracteres se pueda utilizar con la
     ➥función de lectura gets, es necesario inicializarlo como se hace en la siguiente instrucción. */
-    char *cad1 = "";
+    char *cad1 = ";
     gets(cad1);
     /* Correcto. Primero se le asigna un valor a la posición de memoria a la que punta cad1. Luego podemos modificar el contenido de esta posición de memoria utilizando la función gets. */
     char cad1[];
     /* Incorrecto. Se genera un error en la compilación del programa, porque no se reserva el espacio correspondiente. */
-    char cad2[20] = "México"; /* Correcto. */
+    char cad2[20] = "México";                 /* Correcto. */
     puts(cad2);
     gets(cad2);
     /* El valor de una cadena (declarada como cadena[longitud]) se puede modificar por medio de lecturas o utilizando funciones de la biblioteca string.h ejemplo 7.6). */

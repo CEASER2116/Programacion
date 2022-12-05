@@ -23,4 +23,4 @@ cad0 = strstr (cad0 + 1, cad2);
 }
 printf("\nEl número de veces que aparece la segunda cadena es: %d", i);
 }
-
+d
