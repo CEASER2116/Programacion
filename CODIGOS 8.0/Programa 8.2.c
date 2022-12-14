@@ -22,7 +22,7 @@ struct alumno *a3, *a4, *a5, a6;
 /* Observa que las variables *a3, *a4 y *a5 se declaran como apuntadores de
 ➥tipo estructura alumno. a6 es una variable de tipo estructura alumno. */
 a3 = &a0;  /* En este caso al apuntador de tipo estructura alumno a3 se le asigna la dirección de la variable de tipo estructura alumno, a0. */
-a4 = new(struct alumno);
+a4 = new(str);
 
 /* Nota que al apuntador a4 es necesario asignarle una dirección de memoria.
 ➥Para tener acceso a los campos de un apuntador de tipo estructura, utiliza uno
@@ -77,7 +77,7 @@ void Lectura(struct alumno *a)
 printf("\nIngrese la matrícula del alumno: ");
 scanf("%d", &(*a).matricula);
 fflush(stdin);
-printf("Ingrese el nombre del alumno: ”);
+printf("Ingrese el nombre del alumno: ");
 gets(a->nombre);
 fflush(stdin);
 printf("Ingrese la carrera del alumno: ");
